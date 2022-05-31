@@ -1,0 +1,14 @@
+.container{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.input{
+    font-size: 1.2rem;
+    border-radius: 8px;
+    line-height: 1.3rem;
+}
+.button{
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 1.2rem;
+}

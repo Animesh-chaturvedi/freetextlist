@@ -1,10 +1,40 @@
 .App {
   text-align: center;
+  background-color: #e5e7eb;
+  overflow: hidden
+  ;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.deleteButton{
+  color: white;
+  background-color: #070d61;
+  border: none;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: .5rem;
+  font-size: 1.1rem;
+}
+.divhead{
+  /* padding: 4rem; */
+  justify-content: space-between;
+}
+.tableDiv{
+  overflow-y: scroll;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+}
+.table{
+  width: -webkit-fill-available;
+}
+.tableHead{
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #a0a3a1;
 }
 
 @media (prefers-reduced-motion: no-preference) {

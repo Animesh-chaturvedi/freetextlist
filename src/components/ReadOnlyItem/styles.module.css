@@ -1,0 +1,14 @@
+.container{
+        font-size: 1.2rem;
+        font-weight: 500;
+}
+.profileImage{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.button{
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 1.2rem;
+}
